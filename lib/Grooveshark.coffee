@@ -127,6 +127,8 @@ Grooveshark.getStreamingUrl = (songID, callback) ->
               return callback err  if err?
 
               bodyObject = JSON.parse body
+              return callback new Error 'denied.'  if not bodyObject.result?
+
               host = bodyObject.result.ip
               streamKey = bodyObject.result.streamKey
               callback null, "http://#{host}/stream.php?streamKey=#{streamKey}"

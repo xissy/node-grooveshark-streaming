@@ -1,6 +1,6 @@
 # node-grooveshark-streaming
 
-A Node.js module for get music streaming url from Grooveshark without any API authentication.
+A node.js module for getting a music streaming url from Grooveshark without any API authentication.
 
 ## Features
 
@@ -9,7 +9,7 @@ A Node.js module for get music streaming url from Grooveshark without any API au
 
 ## Installation
 
-Via [npm][]:
+Via [npm](https://npmjs.org):
 
   $ npm install grooveshark-streaming
   

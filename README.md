@@ -2,6 +2,8 @@
 
 A node.js module for getting a music streaming url from Grooveshark without any API authentication.
 
+[![Build Status](https://travis-ci.org/xissy/node-grooveshark-streaming.png?branch=master)](https://travis-ci.org/xissy/node-grooveshark-streaming)
+
 ## Features
 
 - Searches grooveshark song info by a track title and an artist name.

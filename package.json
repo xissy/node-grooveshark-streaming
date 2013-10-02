@@ -1,6 +1,6 @@
 {
   "name": "grooveshark-streaming",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A node.js module for getting a music streaming url from Grooveshark without any API authentication.",
   "main": "index",
   "repository": {

@@ -60,7 +60,7 @@ Grooveshark.getStreamingUrl = (songID, callback) ->
           privacy: 0
           country: window.GS.config.country
           uuid: groovesharkRequestUuid
-          sesion: session
+          session: session
         method: 'getCommunicationToken'
         parameters:
           secretKey: secretKey
@@ -97,7 +97,7 @@ Grooveshark.getStreamingUrl = (songID, callback) ->
               privacy: 0
               country: window.GS.config.country
               uuid: groovesharkRequestUuid
-              sesion: session
+              session: session
               token: token
             method: 'getStreamKeyFromSongIDEx'
             parameters:

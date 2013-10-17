@@ -41,7 +41,7 @@ Grooveshark.getStreamingUrl = (songID, callback) ->
       return callback err  if err?
 
       $ = cheerio.load body
-      jsString = $('script').eq(1).text()
+      jsString = $('script').eq(2).text()
       
       window = {}
       GS = 

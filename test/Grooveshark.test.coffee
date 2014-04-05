@@ -17,6 +17,5 @@ describe 'Grooveshark', ->
         Grooveshark.getStreamingUrl songInfo.SongID, (err, streamUrl) ->
           should.not.exist err
           should.exist streamUrl
-
           done()
         

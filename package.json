@@ -27,7 +27,7 @@
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script --globals lw --recursive ./test -t 10000"
   },
-  "keywords": ["grooveshark", "mp3", "streaming", "download", "free", "music"],
+  "keywords": ["grooveshark", "tinysong", "mp3", "streaming", "download", "free", "music"],
   "author": "Taeho Kim <xissysnd@gmail.com>",
   "contributors": [
     "Taeho Kim <xissysnd@gmail.com>"

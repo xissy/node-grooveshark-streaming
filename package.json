@@ -1,14 +1,11 @@
 {
   "name": "grooveshark-streaming",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "A node.js module for getting a music streaming url from Grooveshark without any API authentication.",
   "main": "index",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/xissy/node-grooveshark-streaming.git"
-  },
-  "engines": {
-    "node": ">=0.8.0"
+    "type": "git",
+    "url": "https://github.com/xissy/node-grooveshark-streaming.git"
   },
   "dependencies": {
     "coffee-script": "~1.7.1",
@@ -18,16 +15,24 @@
     "node-uuid": "~1.4.0"
   },
   "devDependencies": {
-    "should": "~1.0.0",
-    "mocha": "~1.3.0"
+    "mocha": "~1.18.2",
+    "should": "~3.2.0"
   },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script --globals lw --recursive ./test -t 10000"
+    "test": "mocha --compilers coffee:coffee-script --require coffee-script/register --globals lw --recursive ./test -t 10000"
   },
-  "keywords": ["grooveshark", "tinysong", "mp3", "streaming", "download", "free", "music"],
+  "keywords": [
+    "grooveshark",
+    "tinysong",
+    "mp3",
+    "streaming",
+    "download",
+    "free",
+    "music"
+  ],
   "author": "Taeho Kim <xissysnd@gmail.com>",
   "contributors": [
     "Taeho Kim <xissysnd@gmail.com>"

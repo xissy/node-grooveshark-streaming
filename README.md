@@ -13,14 +13,18 @@ A node.js module for getting a music streaming url from Grooveshark without any 
 
 Via [npm](https://npmjs.org):
 
+```
   $ npm install grooveshark-streaming
+```
   
 
 ## Quick Start
 
 ### Load in the module
 
+```
   var GS = require('grooveshark-streaming');
+```
 
 ### Exported Objects
 
